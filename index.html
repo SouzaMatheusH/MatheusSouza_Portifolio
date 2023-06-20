@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importações -->
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Biblioteca JQ -->
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+
+    <title>Matheus Souza - Portifólio</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <ul>
+            <li>Início</li>
+            <li>Sobre mim</li>
+            <li>Projetos</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="habilidades">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+        </div>
+        <h1>Matheus Souza</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <div class="contato">
+            <a target="_blank" href="https://www.linkedin.com/in/matheus-souza-2a2198263/">Linkedin</a>
+            <a target="_blank" href="https://github.com/SouzaMatheusH">Github</a>
+            <a target="_blank" href="mailto: matheussouzahs@gmail.com">Email</a>
+        </div>
+        <img class="foto" src="avatar.png">
+    </header>
+
+    <main>
+        <div class="sobre-container">
+            <div class="sobre">
+                <h2>Sobre mim:<div class="bar"></div></h2>
+                <p>&nbsp&nbspOlá!</p>
+                <p>&nbsp&nbspMeu nome é Matheus Souza.</p>
+                <br><p>&nbsp&nbspTenho 17 anos e consumo tecnologia desde novo, até que decidi aprender sobre programação. Conto atualmente com bom conhecimento sobre linguagem de marcação HTML, linguagem de estilização CSS, além de uma boa noção com programação JavaScript e PHP.</p>
+                <p>&nbsp&nbspAlém disso, também conto com conhecimentos mais básicos em banco de dados relacionais e linguagem MySQL!</p>
+                <p>&nbsp&nbspAtualmente, estou focado em aprender a área front-end e estou cursando ensino técnico em desenvolvimento de sistemas.</p>
+                <p>&nbsp&nbspJá possuo experiências de desenvolvimento em alguns projetos, como no site da liga de futebol de Taubaté ou com projetos pessoais. Confira alguns abaixo ;) </p>
+                <img src="giphy.gif">
+            </div>
+        </div>
+
+        <!-- Projetos (5) -->
+        <div class="projetos-container">
+            <div class="projeto">
+                <a target="_blank" href="https://souzamatheush.github.io/Calculadoras_simples/">
+                    <span class="cartao">
+                        <div class="caixa_cartoes">
+                            <h2>Calculadoras</h2>
+                            <p>Clique para ver!</p>
+                        </div>
+                    </span>
+                </a>
+                <div class="descricao">
+                    Um projeto de calculadora simples utilizando HTML, CSS e JS. O projeto foi realizado com o princípio de ter meus primeiros contatos com o JavaScript e não levou muito tempo para ser realizado.
+                </div>
+            </div>
+
+            <div class="projeto">
+                <a target="_blank" href="">
+                    <span class="cartao2">
+                        <div class="caixa_cartoes">
+                            <h2>EM BREVE...</h2>
+                            <p>EM BREVE...</p>
+                        </div>
+                    </span>
+                </a>
+                <div class="descricao">
+                    EM BREVE...
+                </div>
+            </div>
+
+            <div class="projeto">
+                <a target="_blank" href="">
+                    <span class="cartao3">
+                        <div class="caixa_cartoes">
+                            <h2>EM BREVE...</h2>
+                            <p>EM BREVE...</p>
+                        </div>
+                    </span>
+                </a>
+                <div class="descricao">
+                    EM BREVE...
+                </div>
+            </div>
+
+            <div class="projeto">
+                <a target="_blank" href="">
+                    <span class="cartao4">
+                        <div class="caixa_cartoes">
+                            <h2>EM BREVE...</h2>
+                            <p>EM BREVE...</p>
+                        </div>
+                    </span>
+                </a>
+                <div class="descricao">
+                    EM BREVE...
+                </div>
+            </div>
+
+            <div class="projeto">
+                <a target="_blank" href="">
+                    <span class="cartao5">
+                        <div class="caixa_cartoes">
+                            <h2>EM BREVE...</h2>
+                            <p>EM BREVE...</p>
+                        </div>
+                    </span>
+                </a>
+                <div class="descricao">
+                    EM BREVE...
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Feito por: Matheus Souza</p>
+        <p>Email de contato: matheussouzahs@gmail.com</p>
+        <p>Avatar no banner: southparkstudios.com.br</p>
+    </footer>
+
+    <!-- Animações de scrolling -->
+    <script>
+        function navegar() {
+            $('nav li:nth-child(1)').click(function(e) {
+                $('html, body').animate( { scrollTop: $('header').offset().top } , 1000 );
+            });
+            $('nav li:nth-child(2)').click(function(e) {
+                $('html, body').animate( { scrollTop: $('.sobre-container').offset().top } , 1000 );
+            })     
+            $('nav li:nth-child(3)').click(function(e) {
+                $('html, body').animate( { scrollTop: $('.projetos-container').offset().top } , 1000 );
+            });
+        }
+        navegar();
+    </script>
+</body>
+</html>
