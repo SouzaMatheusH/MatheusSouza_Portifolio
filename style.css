@@ -132,7 +132,7 @@ a:hover {
 }
 .sobre {
     padding: 0;
-    margin-left: 7%;
+    margin-left: 4%;
     margin-top: 2%;
     transition: opacity 1s ease-in-out;
 }
@@ -165,11 +165,10 @@ a:hover {
 .sobre p {
     color: white;
     margin: 0;
-    margin-top: -50px;
     padding: 0;
     font-size: 20px;
     display: flex;
-    width: 800px;
+    width: 900px;
 }
 
 /* CONTAINER - PROJETOS */
