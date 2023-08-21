@@ -165,6 +165,7 @@ a:hover {
 .sobre p {
     color: white;
     margin: 0;
+    margin-top: -50px;
     padding: 0;
     font-size: 20px;
     display: flex;
