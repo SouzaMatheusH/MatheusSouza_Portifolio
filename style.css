@@ -34,7 +34,7 @@ header {
 .foto {
     height: 70%;
     position: absolute;
-    left: 55em;
+    left: 65em;
     transform: translatey(0px);
     animation: flutuar 5s ease-in-out infinite;
     z-index: 1;
@@ -125,9 +125,9 @@ a:hover {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 110%;
+    left: 140%;
     bottom: 65%;
-    width: 300px;
+    width: 500px;
     animation: flutuar 5s ease-in-out infinite;
 }
 .sobre {
